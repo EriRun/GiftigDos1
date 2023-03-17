@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GiftigDos1.props" />
+</Project>

@@ -1,0 +1,7 @@
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\publish\GiftigDos1.exe
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\publish\appsettings.Development.json
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\publish\appsettings.json
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\publish\GiftigDos1.dll
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\publish\GiftigDos1.deps.json
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\publish\GiftigDos1.runtimeconfig.json
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\publish\GiftigDos1.pdb
