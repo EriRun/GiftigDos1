@@ -41,8 +41,8 @@
         "uniqueVirtualNET": "[concat(parameters('vmName'), '-Vnet')]",
         "uniqueVirtualNetSub": "[concat(parameters('vmName'), '-VnetSub')]",
         "uniqueNetInterface": "[concat(parameters('vmName'), '-NetInterface')]",
-        "DiskName": "[concat(parameters('vmName'), '-Disk')]"
-
+        "DiskName": "[concat(parameters('vmName'), '-Disk')]",
+        "DnsName": "[toLower(concat(parameters('vmName'), uniqueString(resourceGroup().id)))]"
     },
     "resources": 
     [
@@ -54,7 +54,7 @@
             "properties": {
                 "publicIPAllocationMethod": "Dynamic",
                 "dnsSettings": {
-                    "domainNameLabel": "[parameters('vmName')]"
+                    "domainNameLabel": "[variables('DnsName')]"
                 }
             }
         },
