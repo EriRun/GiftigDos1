@@ -38,12 +38,6 @@
         "metadata": {
         "description": "Specifies the SSH rsa public key file as a string. Use \"ssh-keygen -t rsa -b 2048\" to generate your SSH key pairs."
         }
-      },
-      "privateIPadress": {
-        "type": "string"
-      },
-      "assignPublicIP": {
-        "type": "bool"
       }
     },
     "functions": [],
@@ -63,7 +57,6 @@
             "type": "Microsoft.Network/publicIPAddresses",
             "apiVersion": "2020-11-01",
             "location": "[resourceGroup().location]",
-            //"condition": "[parameters('assignPublicIP')]",
             "properties": {
                 "publicIPAllocationMethod": "Dynamic",
                 "dnsSettings": {
@@ -136,8 +129,7 @@
                     {
                         "name": "ipConfig1",
                         "properties": {
-                            "privateIPAllocationMethod": "Static",
-                            "privateIPAddress": "[parameters('privateIPadress')]",
+                            "privateIPAllocationMethod": "Dynamic",
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('uniquePublicIP'))]"
                             },

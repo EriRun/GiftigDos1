@@ -29,3 +29,5 @@ C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\obj\Debug\net7.0\refint\Giftig
 C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\obj\Debug\net7.0\GiftigDos1.pdb
 C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\obj\Debug\net7.0\GiftigDos1.genruntimeconfig.cache
 C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\obj\Debug\net7.0\ref\GiftigDos1.dll
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\ArmedBlob.json
+C:\Users\00erirun\Documents\GiftigDos1\GiftigDos1\bin\Debug\net7.0\ArmTemplate.json
